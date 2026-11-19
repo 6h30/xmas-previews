@@ -34,6 +34,8 @@ ul.inside{margin:0;padding-left:1.2rem}ul.inside li{margin:6px 0}
 .stage .grid img{width:100%;height:auto;display:block}
 .cell{padding:6px;border-radius:12px}
 .note{font-size:.88rem;color:var(--muted)}
+.demo{border-radius:16px;overflow:hidden;border:1px solid var(--line);box-shadow:0 8px 24px #4a1d1428;background:#fff}.demo iframe{display:block;width:100%;height:640px;border:0}
+@media(max-width:600px){.demo iframe{height:560px}}
 .cards-index{display:grid;gap:16px;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));margin-top:16px}
 .pcard{display:flex;flex-direction:column;text-decoration:none;color:inherit;background:#fffaf3;border:1px solid var(--line);border-radius:16px;overflow:hidden;box-shadow:0 6px 18px #4a1d1418;transition:transform .15s}
 .pcard:hover{transform:translateY(-3px)}
